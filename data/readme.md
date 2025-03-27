@@ -1,0 +1,1 @@
+Readme for data file for Friday Seminar
