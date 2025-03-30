@@ -23,3 +23,16 @@ temperature_long <- pivot_longer(Temp_data,
 
 # View transformed data
 head(temperature_long)
+
+ggplot(temperature_long, aes(x = Year, y = Temperature_Anomaly)) +
+  geom_line() +
+  facet_wrap(~ Month, ncol = 3) +  # Split into facets for each month
+  labs(title = "Monthly Temperature Anomalies (by Month)",
+       x = "Year",
+       y = "Temperature Anomaly (°C)") +
+  theme_minimal()
+
+
+
+
+

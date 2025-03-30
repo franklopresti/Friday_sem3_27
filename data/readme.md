@@ -1,3 +1,6 @@
 Readme for data file for Friday Seminar
 
-https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
+Temp_data <- read.csv("C:/Users/frank/Downloads/Nasa.csv", header = TRUE)
+
+head(Temp_data)
+
